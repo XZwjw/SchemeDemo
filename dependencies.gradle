@@ -1,0 +1,14 @@
+ext {
+    butterknife_version = "8.8.1"
+
+    compileSdkVersion = 28
+    buildToolsVersion = '28.0.0'
+    minSdkVersion     = 21
+    targetSdkVersion  = 28
+
+    dependencies = [
+            "butterknife"      : 'com.jakewharton:butterknife:${butterknife_version}',
+            "butterknife_compiler"      : 'com.jakewharton:butterknife-compiler:${butterknife_version}'
+    ]
+
+}
